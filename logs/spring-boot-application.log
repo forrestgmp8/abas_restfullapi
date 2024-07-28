@@ -1,0 +1,116 @@
+2024-07-29T01:23:38.606+03:00  INFO 48315 --- [rest] [restartedMain] com.abasapi.rest.RestApplication         : Starting RestApplication using Java 21.0.3 with PID 48315 (/home/geo/Masaüstü/workspace/rest/target/classes started by geo in /home/geo/Masaüstü/workspace/rest)
+2024-07-29T01:23:38.609+03:00  INFO 48315 --- [rest] [restartedMain] com.abasapi.rest.RestApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-07-29T01:23:39.327+03:00  INFO 48315 --- [rest] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-29T01:23:39.328+03:00  INFO 48315 --- [rest] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-29T01:23:41.675+03:00  INFO 48315 --- [rest] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-29T01:23:41.803+03:00  INFO 48315 --- [rest] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 0 JPA repository interfaces.
+2024-07-29T01:23:45.321+03:00  INFO 48315 --- [rest] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2024-07-29T01:23:45.661+03:00  INFO 48315 --- [rest] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-29T01:23:45.662+03:00  INFO 48315 --- [rest] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-29T01:23:46.318+03:00  INFO 48315 --- [rest] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-29T01:23:46.319+03:00  INFO 48315 --- [rest] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6991 ms
+2024-07-29T01:23:46.565+03:00  INFO 48315 --- [rest] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-29T01:23:49.064+03:00  INFO 48315 --- [rest] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-07-29T01:23:49.067+03:00  INFO 48315 --- [rest] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-29T01:23:49.131+03:00  INFO 48315 --- [rest] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:testdb'
+2024-07-29T01:23:50.401+03:00  INFO 48315 --- [rest] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-29T01:23:51.176+03:00  INFO 48315 --- [rest] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-29T01:23:51.451+03:00  INFO 48315 --- [rest] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-29T01:23:53.508+03:00  INFO 48315 --- [rest] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-29T01:23:54.024+03:00  WARN 48315 --- [rest] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-29T01:23:55.236+03:00  INFO 48315 --- [rest] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-29T01:23:55.246+03:00  INFO 48315 --- [rest] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-29T01:23:55.440+03:00  WARN 48315 --- [rest] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-29T01:23:58.036+03:00  INFO 48315 --- [rest] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-29T01:23:58.125+03:00  INFO 48315 --- [rest] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2024-07-29T01:23:58.149+03:00  INFO 48315 --- [rest] [restartedMain] com.abasapi.rest.RestApplication         : Started RestApplication in 20.329 seconds (process running for 22.716)
+2024-07-29T01:41:09.708+03:00  INFO 61039 --- [rest] [restartedMain] com.abasapi.rest.RestApplication         : Starting RestApplication using Java 21.0.3 with PID 61039 (/home/geo/Masaüstü/workspace/rest/target/classes started by geo in /home/geo/Masaüstü/workspace/rest)
+2024-07-29T01:41:09.711+03:00  INFO 61039 --- [rest] [restartedMain] com.abasapi.rest.RestApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-07-29T01:41:09.786+03:00  INFO 61039 --- [rest] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-29T01:41:09.787+03:00  INFO 61039 --- [rest] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-29T01:41:10.596+03:00  INFO 61039 --- [rest] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-29T01:41:10.697+03:00  INFO 61039 --- [rest] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2024-07-29T01:41:11.576+03:00  INFO 61039 --- [rest] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2024-07-29T01:41:11.589+03:00  INFO 61039 --- [rest] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-29T01:41:11.590+03:00  INFO 61039 --- [rest] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-29T01:41:11.639+03:00  INFO 61039 --- [rest] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-29T01:41:11.640+03:00  INFO 61039 --- [rest] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1852 ms
+2024-07-29T01:41:11.725+03:00  INFO 61039 --- [rest] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-29T01:41:11.936+03:00  INFO 61039 --- [rest] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-07-29T01:41:11.938+03:00  INFO 61039 --- [rest] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-29T01:41:11.954+03:00  INFO 61039 --- [rest] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:testdb'
+2024-07-29T01:41:12.186+03:00  INFO 61039 --- [rest] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-29T01:41:12.259+03:00  INFO 61039 --- [rest] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-29T01:41:12.292+03:00  INFO 61039 --- [rest] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-29T01:41:12.570+03:00  INFO 61039 --- [rest] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-29T01:41:12.620+03:00  WARN 61039 --- [rest] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-29T01:41:13.780+03:00  INFO 61039 --- [rest] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-29T01:41:13.818+03:00  INFO 61039 --- [rest] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-29T01:41:14.294+03:00  WARN 61039 --- [rest] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-29T01:41:15.018+03:00  INFO 61039 --- [rest] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-29T01:41:15.058+03:00  INFO 61039 --- [rest] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2024-07-29T01:41:15.074+03:00  INFO 61039 --- [rest] [restartedMain] com.abasapi.rest.RestApplication         : Started RestApplication in 5.85 seconds (process running for 6.991)
+2024-07-29T01:41:15.159+03:00  INFO 61039 --- [rest] [restartedMain] com.abasapi.rest.LoadDatabase            : Preloading Employee{id=1, name='Bilbo Baggins', role='burglar'}
+2024-07-29T01:41:15.162+03:00  INFO 61039 --- [rest] [restartedMain] com.abasapi.rest.LoadDatabase            : Preloading Employee{id=2, name='Frodo Baggins', role='thief'}
+2024-07-29T01:44:34.677+03:00  INFO 61039 --- [rest] [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-29T01:44:34.677+03:00  INFO 61039 --- [rest] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-29T01:44:34.679+03:00  INFO 61039 --- [rest] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-29T01:47:43.901+03:00  INFO 61039 --- [rest] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-29T01:47:43.980+03:00  INFO 61039 --- [rest] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-29T01:47:44.130+03:00  WARN 61039 --- [rest] [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-07-29T01:47:44.132+03:00  INFO 61039 --- [rest] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-29T01:47:44.135+03:00  INFO 61039 --- [rest] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-29T01:47:44.449+03:00  INFO 61039 --- [rest] [restartedMain] com.abasapi.rest.RestApplication         : Starting RestApplication using Java 21.0.3 with PID 61039 (/home/geo/Masaüstü/workspace/rest/target/classes started by geo in /home/geo/Masaüstü/workspace/rest)
+2024-07-29T01:47:44.449+03:00  INFO 61039 --- [rest] [restartedMain] com.abasapi.rest.RestApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-07-29T01:47:44.943+03:00  INFO 61039 --- [rest] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-29T01:47:44.955+03:00  INFO 61039 --- [rest] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2024-07-29T01:47:45.188+03:00  INFO 61039 --- [rest] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2024-07-29T01:47:45.190+03:00  INFO 61039 --- [rest] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-29T01:47:45.190+03:00  INFO 61039 --- [rest] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-29T01:47:45.247+03:00  INFO 61039 --- [rest] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-29T01:47:45.248+03:00  INFO 61039 --- [rest] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 794 ms
+2024-07-29T01:47:45.271+03:00  INFO 61039 --- [rest] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-07-29T01:47:45.276+03:00  INFO 61039 --- [rest] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=SA
+2024-07-29T01:47:45.276+03:00  INFO 61039 --- [rest] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-07-29T01:47:45.277+03:00  INFO 61039 --- [rest] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:testdb'
+2024-07-29T01:47:45.347+03:00  INFO 61039 --- [rest] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-29T01:47:45.352+03:00  INFO 61039 --- [rest] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-29T01:47:45.393+03:00  INFO 61039 --- [rest] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-29T01:47:45.397+03:00  WARN 61039 --- [rest] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-29T01:47:45.501+03:00  INFO 61039 --- [rest] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-29T01:47:45.507+03:00  INFO 61039 --- [rest] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-29T01:47:45.640+03:00  WARN 61039 --- [rest] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-29T01:47:45.876+03:00  INFO 61039 --- [rest] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-29T01:47:45.888+03:00  INFO 61039 --- [rest] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2024-07-29T01:47:45.892+03:00  INFO 61039 --- [rest] [restartedMain] com.abasapi.rest.RestApplication         : Started RestApplication in 1.526 seconds (process running for 397.809)
+2024-07-29T01:47:45.900+03:00  INFO 61039 --- [rest] [restartedMain] com.abasapi.rest.LoadDatabase            : Preloading Employee{id=1, name='Erhan Eroglu', role='developer'}
+2024-07-29T01:47:45.905+03:00  INFO 61039 --- [rest] [restartedMain] com.abasapi.rest.LoadDatabase            : Preloading Employee{id=2, name='joe Dohn', role='tester'}
+2024-07-29T01:47:45.909+03:00  INFO 61039 --- [rest] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-29T01:48:04.117+03:00  INFO 66675 --- [rest] [restartedMain] com.abasapi.rest.RestApplication         : Starting RestApplication using Java 21.0.3 with PID 66675 (/home/geo/Masaüstü/workspace/rest/target/classes started by geo in /home/geo/Masaüstü/workspace/rest)
+2024-07-29T01:48:04.123+03:00  INFO 66675 --- [rest] [restartedMain] com.abasapi.rest.RestApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-07-29T01:48:04.331+03:00  INFO 66675 --- [rest] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-29T01:48:04.331+03:00  INFO 66675 --- [rest] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-29T01:48:06.173+03:00  INFO 66675 --- [rest] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-29T01:48:06.391+03:00  INFO 66675 --- [rest] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 149 ms. Found 1 JPA repository interface.
+2024-07-29T01:48:08.316+03:00  INFO 66675 --- [rest] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2024-07-29T01:48:08.375+03:00  INFO 66675 --- [rest] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-29T01:48:08.380+03:00  INFO 66675 --- [rest] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-29T01:48:08.529+03:00  INFO 66675 --- [rest] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-29T01:48:08.531+03:00  INFO 66675 --- [rest] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4198 ms
+2024-07-29T01:48:08.700+03:00  INFO 66675 --- [rest] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-29T01:48:09.480+03:00  INFO 66675 --- [rest] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-07-29T01:48:09.482+03:00  INFO 66675 --- [rest] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-29T01:48:09.504+03:00  INFO 66675 --- [rest] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:testdb'
+2024-07-29T01:48:09.718+03:00  INFO 66675 --- [rest] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-29T01:48:09.856+03:00  INFO 66675 --- [rest] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-29T01:48:09.914+03:00  INFO 66675 --- [rest] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-29T01:48:10.250+03:00  INFO 66675 --- [rest] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-29T01:48:10.360+03:00  WARN 66675 --- [rest] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-29T01:48:14.621+03:00  INFO 66675 --- [rest] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-29T01:48:14.850+03:00  INFO 66675 --- [rest] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-29T01:48:15.667+03:00  WARN 66675 --- [rest] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-29T01:48:18.456+03:00  INFO 66675 --- [rest] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-29T01:48:18.500+03:00  INFO 66675 --- [rest] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2024-07-29T01:48:18.515+03:00  INFO 66675 --- [rest] [restartedMain] com.abasapi.rest.RestApplication         : Started RestApplication in 15.568 seconds (process running for 16.783)
+2024-07-29T01:48:18.651+03:00  INFO 66675 --- [rest] [restartedMain] com.abasapi.rest.LoadDatabase            : Preloading Employee{id=1, name='Erhan Eroglu', role='developer'}
+2024-07-29T01:48:18.653+03:00  INFO 66675 --- [rest] [restartedMain] com.abasapi.rest.LoadDatabase            : Preloading Employee{id=2, name='joe Dohn', role='tester'}
