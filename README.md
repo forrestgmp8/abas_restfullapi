@@ -17,7 +17,7 @@ ResponseEntity<?> newEmployee(@RequestBody Employee newEmployee) {
       .created(entityModel.getRequiredLink(IanaLinkRelations.SELF).toUri())
       .body(entityModel);
 }
-
+```
 
 Gereksinimler
 Yukarıdaki kodu kullanmadan önce aşağıdaki sınıfları içe aktarmanız gerekmektedir:
