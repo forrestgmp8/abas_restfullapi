@@ -20,20 +20,27 @@ class EmployeeController {
   }
 
 
-  // Aggregate root
-  // tag::get-aggregate-root[]
   @GetMapping("/employees")
   List<Employee> all() {
     return repository.findAll();
   }
-  // end::get-aggregate-root[]
+  
+  @PostMapping("/employees")
+  ResponseEntity<?> newEmployee(@RequestBody Employee newEmployee) {
 
+  	EntityModel<Employee> entityModel = assembler.toModel(repository.save(newEmployee));
+    
+
+  	return ResponseEntity.created(entityModel.getRequiredLink(IanaLinkRelations.SELF).toUri()).body(entityModel);
+  }
+
+/*
   @PostMapping("/employees")
   Employee newEmployee(@RequestBody Employee newEmployee) {
     return repository.save(newEmployee);
   }
+*/
 
-  // Single item
   
   @GetMapping("/employees/{id}")
   Employee one(@PathVariable Long id) {
