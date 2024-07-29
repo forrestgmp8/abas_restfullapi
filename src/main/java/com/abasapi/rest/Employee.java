@@ -3,6 +3,9 @@ package com.abasapi.rest;
 
 import java.util.Objects;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.EntityModel;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -16,8 +19,8 @@ class Employee {
   private String name;
   private String role;
 
-  Employee() {}
-
+@Autowired
+    private EmployeeModelAssembler assembler;
   Employee(String name, String role) {
 
     this.name = name;
@@ -69,4 +72,8 @@ class Employee {
   public String toString() {
     return "Employee{" + "id=" + this.id + ", name='" + this.name + '\'' + ", role='" + this.role + '\'' + '}';
   }
+  
+  public EntityModel<Employee> toModel() {
+        return assembler.toModel(this);
+    }
 }
