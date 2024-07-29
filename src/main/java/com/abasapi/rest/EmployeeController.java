@@ -2,9 +2,9 @@ package com.abasapi.rest;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.IanaLinkRelations;
-import org.springframework.hateoas.server.RepresentationModelAssembler;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,13 +18,14 @@ import org.springframework.web.bind.annotation.RestController;
 class EmployeeController {
 
   private final EmployeeRepository repository;
-  private final RepresentationModelAssembler<Employee, EntityModel<Employee>> assembler;
+  private final EmployeeModelAssembler assembler;
 
-  EmployeeController(EmployeeRepository repository, RepresentationModelAssembler<Employee, EntityModel<Employee>> assembler) {
-    this.repository = repository;
-    this.assembler = assembler;
+
+  @Autowired
+  public EmployeeController(EmployeeRepository repository, EmployeeModelAssembler assembler) {
+      this.repository = repository;
+      this.assembler = assembler;
   }
-
 
   @GetMapping("/employees")
   List<Employee> all() {
@@ -34,11 +35,11 @@ class EmployeeController {
   @PostMapping("/employees")
   ResponseEntity<?> newEmployee(@RequestBody Employee newEmployee) {
 
-    EntityModel<Employee> entityModel = assembler.toModel(repository.save(newEmployee));
+  	EntityModel<Employee> entityModel = assembler.toModel(repository.save(newEmployee));
 
-    return ResponseEntity //
-          .created(entityModel.getRequiredLink(IanaLinkRelations.SELF).toUri()) //
-          .body(entityModel);
+  	return ResponseEntity //
+      		.created(entityModel.getRequiredLink(IanaLinkRelations.SELF).toUri()) //
+      		.body(entityModel);
   }
 
 /*
